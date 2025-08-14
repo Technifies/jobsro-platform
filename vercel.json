@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "jobsro-frontend",
+  "builds": [
+    {
+      "src": "client/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/client/build/index.html"
+    }
+  ],
+  "env": {
+    "REACT_APP_API_URL": "@api_url"
+  },
+  "build": {
+    "env": {
+      "REACT_APP_API_URL": "@api_url"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-react-app:*)",
+      "Bash(psql:*)",
+      "Bash(docker:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(curl:*)",
+      "Bash(start \"C:\\AI Projects August 2025\\Jobsro\\demo.html\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
