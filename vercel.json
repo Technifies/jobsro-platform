@@ -15,13 +15,5 @@
       "src": "/(.*)",
       "dest": "/client/build/index.html"
     }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "@api_url"
-  },
-  "build": {
-    "env": {
-      "REACT_APP_API_URL": "@api_url"
-    }
-  }
+  ]
 }
