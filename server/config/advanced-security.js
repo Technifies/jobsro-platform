@@ -59,7 +59,7 @@ class SecurityManager {
         }
       },
       crossOriginEmbedderPolicy: false,
-      crossOriginOpenerPolicy: { policy: "cross-origin" },
+      crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
       crossOriginResourcePolicy: { policy: "cross-origin" },
       dnsPrefetchControl: true,
       frameguard: { action: 'deny' },
