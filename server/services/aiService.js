@@ -308,7 +308,8 @@ class AIMatchingService {
         if (hasPartialMatch) {
           partialMatches++;
         }
-      });
+      }
+    });
 
     const exactWeight = 1.0;
     const partialWeight = 0.5;
