@@ -4,7 +4,7 @@
   "description": "JobsRo Backend API Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index-production.js",
+    "start": "node index.js",
     "dev": "nodemon serve-demo.js",
     "demo": "node serve-demo.js",
     "test": "jest --watchAll=false",
@@ -28,6 +28,7 @@
     "express-session": "^1.17.3",
     "express-winston": "^4.2.0",
     "helmet": "^7.2.0",
+    "hpp": "^0.2.3",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
