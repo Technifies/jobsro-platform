@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 import { store } from './store/store';
 import { theme } from './theme/theme';
-import App from './App';
+import App from './App.js';
 
 import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
